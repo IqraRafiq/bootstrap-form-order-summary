@@ -1,0 +1,99 @@
+body {
+		color: #fff;
+		background: #E0E0E0;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.purple-div{
+		background-color: purple;
+		width: 400px;
+		padding: 10px;
+		margin:  auto;
+		border-radius: 8px;
+		box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	}
+	.form-control {		
+		min-height: 41px;
+		box-shadow: none;
+		border-color: #C0C0C0;
+		border-width: 2px;
+	}
+	.form-control:focus {
+		border-color: #49c1a2;
+	}
+	.form-control, .btn {        
+        border-radius: 5px;
+    }
+	.signup-form {
+		width: 400px;
+		margin: 0 auto;
+		padding: 30px 0;
+		
+
+	}
+	.info{
+		padding-bottom: 5px;
+	}
+	.signup-form form {
+		color: #000000;
+		border-radius: 8px;
+    	margin-bottom: 15px;
+        background: #fff;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+	.signup-form h2 {
+		color: #333;
+		font-weight: bold;
+        margin-top: 0;
+    }
+    .signup-form hr {
+        margin: 0 -10px 20px;
+    }    
+	.signup-form .form-group {
+		margin-bottom: 20px;
+	}
+	.signup-form label {
+
+		font-weight: normal;
+		font-size: 13px;
+	}
+	.signup-form p{
+		display: inline;
+	}
+	.signup-form select{
+	
+      -webkit-appearance: none;
+      -moz-appearance: none; 
+      background: url('icons/arrow.png') no-repeat right; 
+
+	}
+
+select::-ms-expand { display: none; }
+
+	.form-group label:after { content:"*"; }
+	.signup-form .btn {        
+        font-size: 16px;
+        font-weight: bold;
+		background: #49c1a2;
+		border: none;
+		min-width: 140px;
+    }
+	.signup-form .btn:hover, .signup-form .btn:focus {
+		background: #3cb094;
+        outline: none !important;
+	}
+	.signup-form a {
+		color: #fff;
+		text-decoration: underline;
+	}
+	.signup-form a:hover {
+		text-decoration: none;
+	}
+	.signup-form form a {
+		color: #49c1a2;
+		text-decoration: none;
+	}	
+	.signup-form form a:hover {
+		text-decoration: underline;
+	}
